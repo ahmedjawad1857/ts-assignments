@@ -69,7 +69,7 @@
 // const minutes: number = Math.floor(totalSeconds / 60);
 // const seconds: number = totalSeconds % 60;
 
-// console.log(`In ${124}s there are ${minutes} minutes and ${seconds} seconds`);
+// console.log(`In ${totalSeconds}s there are ${minutes} minutes and ${seconds} seconds`);
 
 // //*Task 7: Calculate Percentage
 // //* Write a program that calculates the percentage.
