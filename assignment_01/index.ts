@@ -57,7 +57,7 @@
 // //* Converting Celsius to Fahrenheit
 
 // let celsius: number = 32;
-// let fahrenheit: number = (32 * 9) / 5 + 32;
+// let fahrenheit: number = (celsius * 9 / 5) + 32;
 // console.log(
 //   `Hence, when we convert the temperature from ${celsius}°C to Fahrenheit. It is equal to ${fahrenheit}°F`
 // );

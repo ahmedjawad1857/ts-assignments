@@ -39,7 +39,7 @@ export {};
 // );
 // //* Converting Celsius to Fahrenheit
 // let celsius: number = 32;
-// let fahrenheit: number = (32 * 9) / 5 + 32;
+// let fahrenheit: number = (celsius * 9 / 5) + 32;
 // console.log(
 //   `Hence, when we convert the temperature from ${celsius}°C to Fahrenheit. It is equal to ${fahrenheit}°F`
 // );
@@ -48,7 +48,7 @@ export {};
 // const totalSeconds: number = 124;
 // const minutes: number = Math.floor(totalSeconds / 60);
 // const seconds: number = totalSeconds % 60;
-// console.log(`In ${total}s there are ${minutes} minutes and ${seconds} seconds`);
+// console.log(`In ${totalSeconds}s there are ${minutes} minutes and ${seconds} seconds`);
 // //*Task 7: Calculate Percentage
 // //* Write a program that calculates the percentage.
 // let marks: number = 57;
