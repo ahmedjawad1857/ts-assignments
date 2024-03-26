@@ -43,13 +43,20 @@
 // );
 
 // //* Task 5: Temperature Conversion
-
+// //* converting a temperature from Fahrenheit to Celsius
 // //* Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable.
 
-// //* converting a temperature from Fahrenheit to Celsius
+// making a temperature variable.
+// let temperature: number = 32;
+// let celsius: number = ((temperature - 32) * 5) / 9; // converting temperature to celsius.
+// let fahrenheit: number = (temperature * 9) / 5 + 32; // converting temperature to fahrenheit.
+// console.log(
+//   `The temperature ${temperature}° in celsius is ${celsius}° and in fahrenheit is ${fahrenheit}°`
+// );
+// or Task 5: Temperature conversion, also be done as following
 // //! When you uncomment this task you can face an error of same name
 // let fahrenheit: number = 32;
-// let celsius: number = (fahrenheit - 32) * 5 / 9;
+// let celsius: number = ((fahrenheit - 32) * 5) / 9;
 // console.log(
 //   `Hence, when we convert the temperature from ${fahrenheit}°F to Celsius. It is equal to ${celsius}°C`
 // );
