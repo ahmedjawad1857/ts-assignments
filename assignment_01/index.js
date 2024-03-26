@@ -31,14 +31,14 @@ export {};
 // //* Task 5: Temperature Conversion
 // //* converting a temperature from Fahrenheit to Celsius
 // //* Create a program that converts a temperature from Fahrenheit to Celsius and vice versa using a variable.
-// making a temperature variable.
+// // making a temperature variable.
 // let temperature: number = 32;
 // let celsius: number = ((temperature - 32) * 5) / 9; // converting temperature to celsius.
 // let fahrenheit: number = (temperature * 9) / 5 + 32; // converting temperature to fahrenheit.
 // console.log(
 //   `The temperature ${temperature}° in celsius is ${celsius}° and in fahrenheit is ${fahrenheit}°`
 // );
-// or Task 5: Temperature conversion, also be done as following
+// // or Task 5: Temperature conversion, also be done as following
 // //! When you uncomment this task you can face an error of same name
 // let fahrenheit: number = 32;
 // let celsius: number = ((fahrenheit - 32) * 5) / 9;
@@ -47,7 +47,7 @@ export {};
 // );
 // //* Converting Celsius to Fahrenheit
 // let celsius: number = 32;
-// let fahrenheit: number = (celsius * 9 / 5) + 32;
+// let fahrenheit: number = (celsius * 9) / 5 + 32;
 // console.log(
 //   `Hence, when we convert the temperature from ${celsius}°C to Fahrenheit. It is equal to ${fahrenheit}°F`
 // );
@@ -56,12 +56,14 @@ export {};
 // const totalSeconds: number = 124;
 // const minutes: number = Math.floor(totalSeconds / 60);
 // const seconds: number = totalSeconds % 60;
-// console.log(`In ${totalSeconds}s there are ${minutes} minutes and ${seconds} seconds`);
-// //*Task 7: Calculate Percentage
-// //* Write a program that calculates the percentage.
-// let marks: number = 57;
-// let totalMark: number = 100;
-// let percentage: number = Math.round((marks / totalMark) * totalMark);
+// console.log(
+//   `In ${totalSeconds}s there are ${minutes} minutes and ${seconds} seconds`
+// );
+//*Task 7: Calculate Percentage
+//* Write a program that calculates the percentage.
+// let marks: number = 59;
+// let totalMark: number = 80;
+// let percentage: number = Math.round((marks / totalMark) * 100);
 // console.log(
 //   `if the user obtain ${marks} out of ${totalMark} , The user will get ${percentage} percentage`
 // );
